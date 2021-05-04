@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\Documents\\legrandredd1.github.io"
+		},
+		{
+			"name": "wdd331.github.io",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wdd331.github.io"
+	}
+}
