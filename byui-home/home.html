@@ -1,192 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Brigham Young University - Idaho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Brigham Young University - Idaho</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="styles.scss" />
-  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-</head>
-
-<body>
-  <header>
-    <div class="site-banner white-text">
-      <div class="site-banner__left">
-        <a href="#">
-          <span aria-hidden="true" class="icon-byui-logo">
-            <span class="sr-only">Link to BYU-Idaho home page</span>
-          </span>
-        </a>
-
-      </div>
-      <div class="site-banner__right">
-        <a href="#">
-          <span id="icon-search" class="icon-search  text-white mobile-header-icon">
-            <span class="sr-only">Search BYU-I</span>
-          </span>
-        </a>
-        <a href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=https%3a%2f%2fmy.byui.edu%2f">
-          <span class="icon-audience  text-white mobile-header-icon">
-            <span class="sr-only">Login</span>
-          </span>
-        </a>
-        <a href="http://www.byui.edu/#">
-          <span class="icon-menu  text-white mobile-header-icon">
-            <span class="sr-only">Expand Menu</span>
-          </span>
-        </a>
-      </div>
-      <form aria-label="Search byui.edu" method="get" action="https://www.byui.edu/search/result?" role="search">
-        <div>
-          <label for="searchDesktop" class="sr-only">Search BYU-I websites:
-          </label>
-          <input id="searchDesktop" name="q" placeholder="Powered by Google" alt="Search BYU-I websites (powered by Google.com)."
-            type="text" />
-
-          <button type="submit">
-            <span aria-hidden="true" class="icon icon-magnifying-glass ">
-              <span class="sr-only">Submit</span>
-            </span>
-          </button>
+  <body>
+    <header>
+      <div class="site-banner white-text">
+        <div class="site-banner__left">
+          <a href="#"
+            ><span aria-hidden="true" class="icon-byui-logo">
+              <span class="sr-only">Link to BYU-Idaho home page</span>
+            </span></a
+          >
         </div>
-      </form>
-    </div>
-  </header>
-  <div class="byui-name">
-      <p>Brigham Young University - Idaho</p>
-    </div>
-  <main>
-    <div class="updates">
-      <a href="#"><img src="assets/Spring Semester Updates - 644D2D94-6925-458D-A6BF-A4E6290B147A (1).jpg" alt=""></a>
-      <a href="#"><img src="assets/COVID-19 Updates - 624BB43C-8EE8-44B4-9B8F-24FA7637B5E4.jpg" alt=""></a>
-    </div>
-    <div class="main-banner">
-      <img src="assets/Teachers-GraphicDesign-mobile.jpg" alt="">
-    </div>
-    <div class="boxes">
-      <div class="box">
-        <img src="assets/CampusVideos.jpg" alt="">
-        <span><a href="#">Campus Videos</a></span>
-      </div>
-      <div class="box">
-        <img src="assets/PhotoGallery.jpg" alt="">
-        <span><a href="#">Photo Gallery</a></span>
-      </div>
-      <div class="box">
-        <img src="assets/ExploreCampus.jpg" alt="">
-        <span><a href="#">Explore Campus</a></span>
-      </div>
-    </div>
-  </main>
-  <aside>
-    <div class="selection">
-      <select name="information" id="information">
-        <option value="futurestudents" selected disabled> GET INFORMATION FOR:</option>
-        <option value="futurestudents">Future Students</option>
-        <option value="futurestudents">Current Students</option>
-        <option value="futurestudents">Employees </option>
-        <option value="futurestudents">Parents & Families</option>
-        <option value="futurestudents">Alumni </option>
-        <option value="futurestudents">Visitors </option>
-      </select>
-    </div>
-    <ul>
-      <li class="title">
-        <span>Resources</span>
-      </li>
-      <li>
-        <a href="#">Apply Now <span class="icon-angle-right"> </span></a>
-      </li>
-      <li>
-        <a href="#">Financial Aid <span class="icon-angle-right"> </span></a>
-      </li>
-      <li>
-        <a href="#">Degrees and Programs <span class="icon-angle-right"> </span></a>
-      </li>
-      <li>
-        <a href="#">Student Housing <span class="icon-angle-right"> </span></a>
-      </li>
-      <li>
-        <a href="#">Tuition and Fees <span class="icon-angle-right"> </span></a>
-      </li>
-      <li>
-        <a href="#">Academic Deadlines <span class="icon-angle-right"></span></a>
-      </li>
-    </ul>
-    <section>
-      <ul>
-        <li class="title2 title">
-          <span>Important Dates</span>
-        </li>
-        <li>
-          <label> Jun 23</label> - <span>Devotional - Jason Hunt </span>
-        </li>
-        <li>
-          <label> Jun 30</label> - <span>Devotional - Steve Bunnell </span>
-        </li>
-        <li>
-          <label> Jul 07</label> - <span>Devotional - Linda Ward </span>
-        </li>
-        <li>
-          <label> Jul 14</label> - <span>Devotional - Jim Croasmun</span>
-        </li>
+        <div class="site-banner__right">
+          <a href="http://www.byui.edu/#">
+            <span class="icon-search text-white mobile-header-icon">
+              <span class="sr-only">Search BYU-I</span>
+            </span>
+          </a>
+          <a
+            href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=https%3a%2f%2fmy.byui.edu%2f"
+          >
+            <span class="icon-audience text-white mobile-header-icon">
+              <span class="sr-only">Login</span>
+            </span>
+          </a>
+          <a href="http://www.byui.edu/#">
+            <span class="icon-menu text-white mobile-header-icon">
+              <span class="sr-only">Expand Menu</span>
+            </span>
+          </a>
+        </div>
+        <form
+          aria-label="Search byui.edu"
+          method="get"
+          action="https://www.byui.edu/search/result?"
+          role="search"
+        >
+          <div>
+            <label for="searchDesktop" class="sr-only"
+              >Search BYU-I websites:
+            </label>
+            <input
+              id="searchDesktop"
+              name="q"
+              placeholder="Powered by Google"
+              alt="Search BYU-I websites (powered by Google.com)."
+              type="text"
+            />
 
-      </ul>
-
-    </section>
-  </aside>
-  <hr>
-  <div class="bottom-section">
-    <section class="newsroom">
-      <div class="hidden">
-        <img src="assets/Campus Fall 2020 announcement.jpg" alt="">
+            <button type="submit">
+              <span aria-hidden="true" class="icon icon-magnifying-glass ">
+                <span class="sr-only">Submit</span>
+              </span>
+            </button>
+          </div>
+        </form>
       </div>
+      <div class="title">
+        <h1>Brigham Young University-Idaho</h1>
+      </div>
+    </header>
+    <main>
       <div>
-        <label>JUNE 17, 2020</label>
-        <p><a href="#">Considerations for Fall Semester 2020</a></p>
-        <p>BYU-I evaluates options for students to return to campus fall semester.</p>
+        <div class="media">
+          <div class="media_1">
+            <picture><img src="images/media/7-Livestock_WebAds-High-Value2 HOME.jpg" alt="7-Livestock_WebAds-High-Value2 HOME"> </picture>
+          </div>
+          <div class="media_2">
+            <picture><img src="images/media/CampusVideos.jpg" alt="Campus Videos" srcset=""><figcaption><div>Campus Videos</div> <span class="icon-angle-right"></span></figcaption></picture>
+          </div>
+          <div class="media_2">
+            <picture><img src="images/media/ExploreCampus.jpg" alt="ExploreCampus" srcset=""><figcaption><div>Explore Campus</div> <span class="icon-angle-right"></span></figcaption></picture>
+          </div>
+          <div class="media_2">
+            <picture><img src="images/media/PhotoGallery(0).jpg" alt="PhotoGallery" srcset=""><figcaption><div>Photo Gallery</div> <span class="icon-angle-right"></span></figcaption></picture>
+          </div>
+        </div>
+        <div class="newsroom">
+          <h2>Newsroom</h2>
+          <div class="newsroom_newsroom">
+            <picture><img src="images/newsroom/Fall Semester 2021.jpg" alt="Fall Semester 2021"></picture>
+            <div class="newsroom_section">
+              <div class="newsroom_date">JUNE 8, 2021</div>
+              <h3 class="newsroom_title">BYU-Idaho to be Fully Open Fall Semester 2021  </h3>
+              <p class="newsroom_details">The latest information regarding BYU-Idaho's plans for Fall Semester 2021</p>
+            </div>
+          </div>
+          <div class="newsroom_newsroom">
+            <picture><img src="images/newsroom/Spring 2021 Enrollmen.jpeg" alt="Spring 2021 Enrollmen"></picture>
+            <div class="newsroom_section">
+              <div class="newsroom_date">MAY 14, 2021</div>
+              <h3 class="newsroom_title">BYU-Idaho enrollment continues steady, upward growth</h3>
+              <p class="newsroom_details">Spring 2021 enrollment statistics released</p>
+            </div>
+          </div>
+          <div class="newsroom_newsroom">
+            <picture><img src="images/newsroom/Screen Shot 2021-04-20 at 10.34.07 AM.png" alt="Screen Shot 2021-04-20 at 10.34.07 AM"></picture>
+            <div class="newsroom_section">
+              <div class="newsroom_date">APRIL 20, 2021</div>
+              <h3 class="newsroom_title">BYU-Idaho Radio Interview With the Eyrings</h3>
+              <p class="newsroom_details">President and Sister Eyring discuss their Spring 2021 devotional message to students.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-    <section class="newsroom">
-      <div class="hidden">
-        <img src="assets/photo for spring 2020 enrollment.jpg">
-      </div>
+      <aside>
+        <div class="info">
+          <h3><div>GET INFORMATION FOR: </div>
+          <span class="icon-triangle-down"></span></h3>
+        </div>
+        <div class="links">
+          <h2>Resources</h2>
+          <div class="links_links">
+            <div class="links_name">Apply Now</div>
+            <span class="icon-angle-right"></span>
+          </div>
+          <div class="links_links">
+            <div class="links_name">Financial Aid</div>
+            <span class="icon-angle-right"></span>
+          </div>
+          <div class="links_links">
+            <div class="links_name">Degress and Programs</div>
+            <span class="icon-angle-right"></span>
+          </div>
+          <div class="links_links">
+            <div class="links_name">Student Housing</div>
+            <span class="icon-angle-right"></span>
+          </div>
+          <div class="links_links">
+            <div class="links_name">Tuition and Fees</div>
+            <span class="icon-angle-right"></span>
+          </div>
+          <div class="links_links">
+            <div class="links_name">Academic Deadlines</div>
+            <span class="icon-angle-right"></span>
+          </div>
+        </div>
+        <div class="dates">
+          <h2>Important Dates</h2>
+          <div class="dates_section">
+            <p class="dates_date">Jun 22</p>
+            <span class="col">-</span>
+            <p class="dates_devotional">Devotional - Kristine Ballou</p>
+          </div>
+          <div class="dates_section">
+            <p class="dates_date">Jun 29</p>
+            <span class="col">-</span>
+            <p class="dates_devotional">Devotional - Scott Johnson</p>
+          </div>
+          <div class="dates_section">
+            <p class="dates_date">Jul 06</p>
+            <span class="col">-</span>
+            <p class="dates_devotional">Devotional - Jennifer Jones</p>
+          </div>
+          <div class="dates_section">
+            <p class="dates_date">Jul 13</p>
+            <span class="col">-</span>
+            <p class="dates_devotional">Devotional - Barbara McKenna</p>
+          </div>
+        </div>
+      </aside>
       <div>
-        <label>MAY 22, 2020</label>
-        <p><a href="#">Enrollment Numbers released for Spring 2020 Semester</a></p>
-        <p>BYU-I spring Enrollment numbers show growth despite world-wide pandemic.</p>
+        <div class="message">
+          <picture><img src="images/message/2021-06-22_KristinBallou.jpg" alt="Kristin Ballou" srcset=""></picture>
+          <h3 class="message_devotional"></h3>
+          <p>"In Pursuit of Happiness" | Tuesday, June 22 at 11:30 a.m.</p>
+          <button>View Devotional</button>
+        </div>
       </div>
-    </section>
-    <section class="newsroom">
-      <div class="hidden">
-        <img src="assets/Christensen Photo[1][5].jpg" alt="">
-      </div>
-      <div>
-        <label>MAY 15, 2020</label>
-        <p> <a href="#">BYU-I announces online commencement ceremony for Winter 2020 Graduates</a></p>
-        <p>Elder Craig C. Christensen, General Authority Seventy of The Church of Jesus Christ of Latter-day Saints,
-          will
-          address the 2,458 graduates of Brigham Young University-Idaho in an online commencement ceremony.</p>
-      </div>
-    </section>
-    <div>
-      <button class="button">Newsroom</button>
-    </div>
-  </div>
-
-  <section class="university-message">
-    <div>University Message</div>
-    <img src="assets/Devo_JasonHunt.jpg" alt="">
-  </section>
-  <footer></footer>
-  <script>
-    $("form").hide();
-    $("#icon-search").click(function () {
-      $("form").toggle();
-      console.log('Hello World');
-    });
-  </script>
-</body>
-
+    </main>
+    <footer></footer>
+  </body>
 </html>
